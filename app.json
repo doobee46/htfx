@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "HTFX Exchange",
+    "slug": "htfx",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#282341"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.app.htfxexchange",
+      "versionCode": 2,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/exact.png",
+        "backgroundColor": "#282341"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "07d6620d-ca03-49f7-87a6-c060d97097e4"
+      }
+    },
+    "owner": "obedlorisson"
+  }
+}
